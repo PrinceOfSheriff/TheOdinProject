@@ -26,29 +26,34 @@
     margin: 10px;
     height: 200px; 
     display: flex;
-    flex-flow: wrap;
-}
+    justify-content: center;
+    align-items: center;
 
-  .container {
+    }
+
+    .container {
     background-color: seagreen;
     border: 2px solid white;
+    height: 180px;
     margin: 10px;
     flex: 1;
-}
+    }
 
-  .container-two {
+    .container-two {
     background-color: seagreen;
     border: 2px solid white;
+    height: 150px;
     margin: 10px;
     flex: 1;
-}
+    }
 
-  .container-three {
+    .container-three {
     background-color: seagreen;
+    height: 150px;
     border: 2px solid white;
     margin: 10px;
     flex: 1
-}
+    }
 
 .privatecoaching {
     background-color: lightseagreen;
