@@ -1,57 +1,67 @@
-p {
-    font-family: 'Times New Roman', sans-serif;
-    font-size: 22px;
-    text-align: center;
-}
-
-h1{
-    text-align: center;
-}
 
 .about {
     background-color: lightseagreen;
     border: 2px solid black;
-    padding: 0px;
+    padding: 5px;
     box-sizing: border-box;
-    margin-left: 700px;
-    margin-top: 100px;
-    margin-right: 40px;
+    margin: 10px;
+    width: 50%;
+    height: 200px;
 }
 
 .tutorials {
     background-color: lightseagreen;
     border: 2px solid black;
-    padding: 0px;
+    padding: 5px;
     box-sizing: border-box;
-    margin-left: 40px;
-    margin-top: 20px;
-    margin-right: 700px;
+    margin: 10px;
+    height: 200px;
 }
 
 .clinics {
-    background-color: lightseagreen;
+    background-color: rgb(255, 0, 217);
     border: 2px solid black;
-    padding: 0px;
+    padding: 5px;
     box-sizing: border-box;
-    margin-left: 700px;
-    margin-top: 20px;
-    margin-right: 40px;
+    margin: 10px;
+    height: 200px; 
+}
+
+.clinics2 {
+    background-color: black;
+    border: 2px dotted white;
+    margin: 10px;
 }
 
 .privatecoaching {
     background-color: lightseagreen;
     border: 2px solid black;
-    padding: 0px;
+    padding: 5px;
     box-sizing: border-box;
-    margin-left: 40px;
-    margin-top: 20px;
-    margin-right: 700px;  
+    margin: 10px;
+    height: 200px;
 }
 
-button {
-    background-color: black;
-    color: white;
-    width: 200px;
-    padding: 5px;
-    margin-top: 20px;
+.blockone {
+    display: flex;
+}
+
+.blockone div {
+    flex: 1;
+}
+
+.blocktwo {
+    display: flex;
+}
+
+.blocktwo div {
+    flex: 1;
+}
+
+.clinics {
+    display: flex;
+}
+
+.clinics div {
+    flex: 1;
 }
