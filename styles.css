@@ -18,19 +18,36 @@
     height: 200px;
 }
 
-.clinics {
-    background-color: rgb(255, 0, 217);
+.flex-container {
+    background-color: lightseagreen;
     border: 2px solid black;
     padding: 5px;
     box-sizing: border-box;
     margin: 10px;
     height: 200px; 
+    display: flex;
+    flex-flow: wrap;
 }
 
-.clinics2 {
-    background-color: black;
-    border: 2px dotted white;
+  .container {
+    background-color: seagreen;
+    border: 2px solid white;
     margin: 10px;
+    flex: 1;
+}
+
+  .container-two {
+    background-color: seagreen;
+    border: 2px solid white;
+    margin: 10px;
+    flex: 1;
+}
+
+  .container-three {
+    background-color: seagreen;
+    border: 2px solid white;
+    margin: 10px;
+    flex: 1
 }
 
 .privatecoaching {
@@ -55,13 +72,5 @@
 }
 
 .blocktwo div {
-    flex: 1;
-}
-
-.clinics {
-    display: flex;
-}
-
-.clinics div {
     flex: 1;
 }
