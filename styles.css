@@ -10,7 +10,7 @@ h1{
 
 .about {
     background-color: lightseagreen;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 0px;
     box-sizing: border-box;
     margin-left: 700px;
@@ -20,12 +20,32 @@ h1{
 
 .tutorials {
     background-color: lightseagreen;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 0px;
     box-sizing: border-box;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 700px;
+}
+
+.clinics {
+    background-color: lightseagreen;
+    border: 2px solid black;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.privatecoaching {
+    background-color: lightseagreen;
+    border: 2px solid black;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 700px;  
 }
 
 button {
@@ -33,5 +53,5 @@ button {
     color: white;
     width: 200px;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
